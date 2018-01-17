@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/register.css" />
+		
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script type="text/javascript" src="js/cookie.js" ></script>
+		<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>
+	</head>
+	<body class="login-body">
+		<div class="header-height">
+			<div class="wrap">
+				<div class="header-logo">
+					<div class="fl">
+						<a href="index.html">
+							<img src="images/logon-logo.png"/>
+						</a>
+					</div>
+					<div class="fl">
+						<img src="images/V3login-font4.png"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="main">
+				<div class="main-center">
+					<div class="center-top">
+						<div class="title-info">您好，感谢您加入i百联</div>
+						<div class="title-login">如有账号，请点击 <a href="javascript:;">登录</a></div>
+					</div>
+					<div class="center-bottom">
+						<div class="registered-info">
+							<form action="" method="post" id="formRegister" onsubmit="return false">
+								
+								<div class="registered">
+									<div class="loginPerfect-element">
+										<div class="loginPerfect-data">
+											<div class="name">
+												<i>*</i>
+												用户名：
+											</div>
+											<div class="loginPerfect-input-div">
+												<div class="loginPerfect-input">
+													<input type="text" name="loginId" id="loginId" placeholder="6-20位字符，支持字母或字母与数字组合" class="index-1 inp inp-primary inp-primaryclick"/>
+												</div>
+											</div>
+											<ul class="prompt">
+												<li class="prompt-text">
+													<i class="i1">
+														<img src="images/v-icon-1.png"/>
+													</i>
+													<span class="s1">请输入用户名</span>
+												</li>
+											</ul>
+										</div>
+										<div class="loginPerfect-data">
+											<div class="name">
+												<i>*</i>
+												登录密码：
+											</div>
+											<div class="loginPerfect-input-div">
+												<div class="loginPerfect-input">
+													<input type="password" name="password" id="password" placeholder="8-20位字符" class="index-4 inp inp-primary inp-primaryclick"/>
+												</div>
+											</div>
+											<ul class="prompt">
+												<li class="prompt-text">
+													<i class="i2">
+														<img src="images/v-icon-1.png"/>
+													</i>
+													<span class="s2">密码强度</span>
+												</li>
+											</ul>
+										</div>
+										<div class="loginPerfect-data">
+											<div class="name">
+												<i>*</i>
+												确认密码：
+											</div>
+											<div class="loginPerfect-input-div">
+												<div class="loginPerfect-input">
+													<input type="password" name="confirmPassword" id="confirmPassword" placeholder="再次输入密码" class="index-4 inp inp-primary inp-primaryclick"/>
+												</div>
+											</div>
+											<ul class="prompt">
+												<li class="prompt-text">
+													<i class="i3">
+														<img src="images/v-icon-1.png"/>
+													</i>
+													<span class="s3">请输入确认密码</span>
+												</li>
+											</ul>
+										</div>
+										<div class="loginPerfect-data">
+											<div class="name">
+												<i>*</i>
+												手机号：
+											</div>
+											<div class="loginPerfect-input-div">
+												<div class="loginPerfect-input">
+													
+													<input type="text" name="mobile" id="mobile" placeholder="请输入11位手机号码" class="index-2 inp inp-primary inp-primaryclick"/>
+												</div>
+											</div>
+											<ul class="prompt">
+												<li class="prompt-text">
+													<i class="i4">
+														<img src="images/v-icon-1.png"/>
+													</i>
+													<span class="s4">请输入手机号码</span>
+												</li>
+											</ul>
+										</div>
+										<div class="loginPerfect-data">
+											<div class="name">
+												<i>*</i>
+												验证码：
+											</div>
+											<div class="loginPerfect-input-div">
+												<div class="loginPerfect-input">
+													<input type="text" name="verifyCode" id="verifyCode" placeholder="请输入验证码" class="index-3 inp inp-primary inp-primaryclick"/>
+												</div>
+											</div>
+											<label class="ftx23">
+												<span id="yz" class="register-code"></span>
+												<a href="javascript:;" id="btn1">换一张</a>
+											</label>
+											<ul class="prompt">
+												<li class="prompt-text">
+													<i class="i5">
+														<img src="images/v-icon-1.png"/>
+													</i>
+													<span class="s5">请输入验证码</span>
+												</li>
+											</ul>
+										</div>
+										<div class="loginPerfect-data">
+											<div class="name">
+												<i>*</i>
+												电子邮箱：
+											</div>
+											<div class="loginPerfect-input-div">
+												<div class="loginPerfect-input">
+													<input type="text" name="email" id="email" placeholder="请输入有效邮箱" class="index-5 inp inp-primary"/>
+												</div>
+											</div>
+											<ul class="prompt">
+												<li class="prompt-text">
+													<i class="i6">
+														<img src="images/v-icon-1.png"/>
+													</i>
+													<span class="s6">请输入电子邮箱</span>
+												</li>
+											</ul>
+										</div>
+										<div class="loginPerfect-remember">
+											<label>
+												<input type="checkbox" name="ty" id="ty" checked="checked">
+												<span>我已阅读并同意</span>
+											</label>
+											<a href="#">《百联通会员注册协议》</a>
+										</div>
+										<div class="register-button">
+											<button type="button" class="btn btn-primary sub">立即注册 完成绑定</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer" id="footer">
+			<div class="bottom-nav">
+				<div>
+					<a href="#">关于我们</a>
+					<span>|</span>
+					<a href="#">联系我们</a>
+					<span>|</span>
+					<a href="#">加盟合作</a>
+					<span>|</span>
+					<a href="#">诚征英才</a>
+					<span>|</span>
+					<a href="#">友情链接</a>
+				</div>
+				<div class="copyright">
+					上海百联全渠道电子商务有限公司 版权所有 
+					<span>|</span>
+					 沪ICP备15028847号
+				</div>
+			</div>
+			<div class="botton-contact">
+				<p>
+					联系地址：上海市普陀区真光路1258号百联中环广场6楼
+					<span>|</span>
+					 联系电话：021-52629933
+					<span>|</span>
+					咨询热线：400-900-8800
+            	</p>
+				<p>
+					本企业已通过ISO9001:2000 质量管理体系标准认证
+					<span>|</span>
+					认证注册号：04206Q10079ROM
+					<span>|</span>
+					认可注册号：CNAB042-Q
+					<span>|</span>
+					增值电信业务经营许可证：沪B2-20100062
+					<span style="color: white;">97.34</span>
+				</p>
+			</div>
+		</div>
+	</body>
+	<script>
+		function yzm(){
+			var arr=[];
+			for(i=0;i<4;i++){
+				var code=getRand(48,122);
+				if(code>=91&&code<=96||code>=58&&code<=64){
+					i--;
+				}else{
+					arr.push(String.fromCharCode(code));
+				}
+			}
+			return arr.join("");
+		}
+		$(".register-code").html(yzm());
+		$("#btn1").click(function(){
+			$(".register-code").html(yzm());
+		})
+		var json ={};
+		//用户是否合法 6-20位字符，支持字母或字母与数字组合
+		var flagName = false;
+		$("#loginId").blur(function(){
+			var reg = /^([a-zA-Z]|[a-zA-Z0-9]){6,20}$/
+			var str = $(this).val();
+			//$(".s1").css("display","block");
+			if(reg.test(str)){
+				flagName=true;
+				json.name = str;
+				$(".i1").html('<img src="images/v-icon-3.png"/>');
+				$(".s1").html("合法");
+			}else{
+				$(".i1").html('<img src="images/v-icon-2.png"/>');
+				$(".s1").html("长度不够或不符合规定");
+			}
+		})
+		//密码
+		var flagPwd = false;
+		$("#password").blur(function(){
+			var regNum = /\d+/;	//最少一个数字
+			var regChar = /[a-z]+/i;  //最少一个字母
+			var regOther = /[\W_]+/; //最少一个特殊字符
+	
+			var _regNum = /^\d+$/;	//只含有数字
+			var _regChar = /^[a-z]+$/i; //只含有字母
+			var _regOther = /^[\W_]+$/; //只含有特殊字符 
+			var str = $(this).val();
+			if(str.length>=8){
+				flagPwd=true;
+				json.pwd = str;
+				$(".i2").html('<img src="images/v-icon-3.png"/>');
+				
+				if(_regChar.test(str) || _regOther.test(str) || _regNum.test(str)){
+					$(".s2").html("密码强度：弱").css("color","green");
+				}else if(regChar.test(str) && regOther.test(str) && regNum.test(str)){
+					$(".s2").html("密码强度：强").css("color","red");
+				}else{
+					$(".s2").html("密码强度：中").css("color","orange");
+				}
+			}else{
+				$(".i2").html('<img src="images/v-icon-2.png"/>');
+				$(".s2").html("长度不够或不符合规定");
+			}
+		})
+		//确认密码
+		var flagQPwd = false;
+		$("#confirmPassword").blur(function(){
+			var str = $(this).val();
+			if(str==$("#password").val()){
+				flagQPwd = true;
+				json.pwd = str;
+				$(".i3").html('<img src="images/v-icon-3.png"/>');
+				$(".s3").html("密码正确").css("color","green");
+			}else{
+				$(".i3").html('<img src="images/v-icon-2.png"/>');
+				$(".s3").html("两次密码不一致").css("color","red");
+			}
+		})
+		//手机号
+		var flagTel=false
+		$("#mobile").blur(function(){
+			var reg = /^1[358]\d{9}$/;
+		 	var str = $(this).val();
+		 	if(reg.test(str)){
+		 		flagTel = true;
+		 		json.tel = str;
+		 		$(".i4").html('<img src="images/v-icon-3.png"/>');
+				$(".s4").html("合法");
+		 	}else{
+		 		$(".i4").html('<img src="images/v-icon-2.png"/>');
+				$(".s4").html("长度不够或不符合规定");
+		 	}
+		})
+		//验证码
+		var flagYzm = false;
+		$("#verifyCode").blur(function(){
+			var str = $(this).val();
+			var yzm = $(".register-code").html();
+			var reg = eval("/"+yzm+"/i");
+			if(reg.test(str)){
+				flagYzm = true;
+				$(".i5").html('<img src="images/v-icon-3.png"/>');
+				$(".s5").html("合法");
+			}else{
+				$(".i5").html('<img src="images/v-icon-2.png"/>');
+				$(".s5").html("验证码输入有误");
+			}
+		})
+		//电子邮件
+		var flagEML = false;
+		$("#email").blur(function(){
+			var reg = /^\w+@\w+(\.\w+)+$/;
+		 	var str = $(this).val();
+		 	if(reg.test(str)){
+		 		flagEML = true;
+		 		json.eml = str;
+		 		$(".i6").html('<img src="images/v-icon-3.png"/>');
+				$(".s6").html("合法");
+		 	}else{
+		 		$(".i6").html('<img src="images/v-icon-2.png"/>');
+				$(".s6").html("格式不对");
+		 	}
+		})
+		//选择
+		var flagDeal = true;
+		$("#ty").click(function(){
+			if($("#ty").is(":checked")){
+				flagDeal = true;
+			}else{
+				flagDeal = false;
+			}
+		})
+		$(".sub").click(function(){
+			if(flagYzm&&flagPwd&&flagQPwd&&flagName&&flagDeal&&flagEML){
+				setCookie("prolist",JSON.stringify(json));
+				location.href = "login.html";
+			}
+		})
+		$(".title-login a").click(function(){
+			location.href = "login.html";
+		})
+	</script>
+</html>

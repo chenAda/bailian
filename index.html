@@ -1,0 +1,2721 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		   <link rel="stylesheet" href="iconfont/iconfont.css">
+		<link rel="stylesheet" href="css/style.css" />
+
+		<script src="js/require.js" defer async="true" data-main = "js/main"></script>
+		<!--<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>
+		<script type="text/javascript" src="js/also_like.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>-->
+		<script type="text/javascript" src="js/cookie.js" ></script>
+	</head>
+	<body class="w1200">
+		<!--右侧功能栏-->
+		<div class="right-slidebar" id="rside">
+			<div id="right">
+	    	<ul>
+	    		<li>
+	        		<i class="iconfont iconfont-user2"></i><em class="s">我的信息</em>     	
+	    		</li>
+	    		<li style="height: 120px;">
+	        		<i class="iconfont iconfont-cart-kong gcar" >
+	        			
+	        		</i>
+	        		<p style="line-height:16px;font-size:16px;margin-top:10px">购<br>物<br>车</p> 
+	        		 	
+	    		</li>
+	    		<li>
+	        		<i class="iconfont iconfont-cang2"></i> <em class="s">我的收藏</em>  	       	
+	    		</li>
+	    		<li>
+	        		<i class="iconfont iconfont-dengdai"></i>  <em class="s">历史记录</em>    	
+	    		</li>
+	    		<li>
+	        		<i class="iconfont iconfont-kefu"></i>	 <em class="s">客服</em>  	
+	    		</li>
+	    		<li style="margin-top: 45px;">
+	        		<i class="iconfont iconfont-arrow2-top"></i>	 <em class="s last">返回顶部</em>  	
+	    		</li>
+	    	</ul>
+    		</div>
+		</div>
+		<!--楼梯-->
+		<div id="LoutiNav">
+			<ul id="stairs">
+				<li>1F <span>果蔬</span> </li>
+				<li>2F <span>时装</span> </li>
+				<li>3F <span>零食</span> </li>
+				<li>4F <span>百货</span> </li>
+				<li>5F <span>个护</span> </li>
+				<li>6F <span>母婴</span> </li>
+				<li>7F <span>家居</span> </li>
+				<li>8F <span>数码</span> </li>
+				<li class="last">Top</li>
+			</ul>
+		</div>
+		<!--tools-->
+		<div class="itools"></div>
+		
+		<!--header-->
+		<div class="header">
+			<div class="wrap">
+				<div class="header-font">
+					<div class="header-logo">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/header-logo.png"/>
+							</a>
+						</div>
+						<div class="secondary-logo">
+							<a href="#">
+								<img src="images/1588006794.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="header-search">
+						<div class="fl">
+							<div class="header-search-top">
+								<div class="header-search-input">
+									<div class="indiv">
+										<input type="text" class="gray" placeholder="牛奶" id="first_header_search_input"/>
+									</div>
+								</div>
+								<div class="header-search-button">
+									<button type="submit">
+										<span class="iconfont iconfont-search"></span>
+									</button>
+								</div>
+							</div>
+							<div class="header-search-font">
+								<a href="#">香梨</a>
+								<span>|</span>
+								<a href="#">银耳</a>
+								<span>|</span>
+								<a href="#">鲁花</a>
+								<span>|</span>
+								<a href="#">花王</a>
+								<span>|</span>
+								<a href="#">卫生巾</a>
+								<span>|</span>
+								<a href="#">大王天使</a>
+								<span>|</span>
+								<a href="#">欧舒丹</a>
+								<span>|</span>
+								<a href="#">洗衣液</a>
+								<span>|</span>
+								<a href="#">华为</a>
+								<span>|</span>
+								<a href="#">iphone</a>
+							</div>
+						</div>
+						<div class="fr-w">
+							<div class="fr">
+								<a href="http://www.okcard.com" target="_blank">安付宝OK卡专区<span class="iconfont iconfont-arrow2-right"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--nav-->
+		<div class="nav">
+			<div class="wrap">
+				<div class="nav-left">
+					<div class="nav-leftfont">
+						<i class="iconfont iconfont-menu"></i>
+						<a href="#"><span>所有商品分类</span></a>
+					</div>
+					<div class="show-nav">
+						<div class="banner-itemleft int-nav index-none">
+							<ul id="item">
+								<li>
+									<i class="iconfont iconfont-huangguan jinkou"></i>
+									<span>
+										<a href="#">百联进口  全球购</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-apple shengxian"></i>
+									<span>
+										<a href="#">生鲜食品</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-face shipin"></i>
+									<span>
+										<a href="#">食品粮酒</a>
+										<a href="#">酒水冲饮</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-liwu huli"></i>
+									<span>
+										<a href="#">美容护理</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-chajian muying"></i>
+									<span>
+										<a href="#">母婴玩具</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-moban jiaju"></i>
+									<span>
+										<a href="#">餐厨用具   家居家装</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-cut lengdong"></i>
+									<span>
+										<a href="#">家清  纸品  一次性</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-pifu fuzhuang"></i>
+									<span>
+										<a href="#">女装 男装</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-goods xiangbao"></i>
+									<span>
+										<a href="#">鞋靴箱包</a>
+										<a href="#">珠宝饰品</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-phone shouji"></i>
+									<span>
+										<a href="#">手机数码</a>
+										<a href="#">电脑办公</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-dayinji jiadian"></i>
+									<span>
+										<a href="#">家用电器</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-wuliu qiche"></i>
+									<span>
+										<a href="#">运动户外</a>
+										<a href="#">汽车用品</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-dianpu yiyao"></i>
+									<span>
+										<a href="#">营养滋补</a>
+										<a href="#">保健器械</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-vip-card2 carbook"></i>
+									<span>
+										<a href="#">礼品卡</a>
+										<a href="#">充值</a>
+										<a href="#">图书</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="left-ul-show clearfix" style="margin-left: 0px;opacity:1;">	
+							<ul class="site_cat site_cat1">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="javascript:;">进口饼干:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat2">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat3">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="zhuanti.html">进口饼干:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat4">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat5">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat6">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat7">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat8">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat9">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat10">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat11">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat12">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat13">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat14">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="nav-right">
+					<ul>
+						<li>
+							<a href="#">生活<span></span></a>
+						</li>
+						<li>
+							<a href="#">24H百货<span></span></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/2059598265.gif"><span></span></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/1935516503.gif"><span></span></a>
+						</li>
+						<li>
+							<a href="#">电器城<span></span></a>
+						</li>
+						<li>
+							<a href="#">奥莱代购<span></span></a>
+						</li>
+						<li>
+							<a href="#">礼品卡<span></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--banner-->
+		<div class="banner">
+			<div class="banner_eye" id="lazy-banner">
+				<div class="rollBody">
+					<ul class="main-top-scroll">
+						<li style="background: rgb(243,224,255);height: 430px;z-index: 8;">
+							<a href="#">
+								<img src="images/ban1.jpg"/>
+							</a>
+						</li>
+						<li style="background: rgb(253,221,226);z-index: 7;">
+							<a href="#">
+								<img src="images/ban2.jpg"/>
+							</a>
+						</li>
+						<li style="background: rgb(226,216,206);z-index: 6;">
+							<a href="#">
+								<img src="images/ban3.jpg"/>
+							</a>
+						</li>
+						<li style="background: rgb(243,243,243);z-index: 5;">
+							<a href="#">
+								<img src="images/ban4.jpg"/>
+							</a>
+						</li>
+						<li style="background: rgb(237,238,240);z-index: 4;">
+							<a href="#">
+								<img src="images/ban5.jpg"/>
+							</a>
+						</li>
+						<li style="background: rgb(255,173,123);z-index: 3;">
+							<a href="#">
+								<img src="images/ban6.jpg"/>
+							</a>
+						</li>
+						<li style="background: rgb(237,233,230);z-index: 2;">
+							<a href="#">
+								<img src="images/ban7.jpg"/>
+							</a>
+						</li>
+						<li style="background: rgb(221,100,107);z-index: 1;">
+							<a href="#">
+								<img src="images/ban8.jpg"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="pagechange-div">
+					<!--<span class="prev"><</span><span class="next">></span>-->
+				</div>
+				<ol class="progress-bar-ol">
+					<li class="current">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li> 
+				</ol>
+			</div>
+			<div class="banner-recommend">
+				<div class="banner-recommend_bg"></div>
+				<div class="ban_tit0">
+					<div class="ban_tit0_d1">
+						<div class="ban_tit_tx">
+							<div class="ban_tit_txd">Hi,欢迎来到i百联</div>
+							<a href="#"><span class="iconfont iconfont-avatar2 touxiang"></span></a>
+						</div>
+						<div class="ban_txta">
+							<a href="login.html" class="lg">登录</a>
+							<a href="register.html">注册</a>
+						</div>
+					</div>
+				</div>
+				<div class="ban_tit1">
+					<a href="#" class="ban_more">更多></a>
+					<ol class="ban_qnew">
+						<li>
+							<a href="#">
+								<span>[超值]</span>
+								ELAND满300减150可累计
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>[促销]</span>
+								APM饰品满500减100
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>[品味]</span>
+								时髦新酒，你喝过吗？
+							</a>
+						</li>
+					</ol>
+				</div>
+				<div class="ban_tit2">
+					<ul class="ban_tit2_ul">
+						<li style="background-color:#FFFFFF;">手机充值</li>
+						<li>水电煤</li>
+						<li>充值游戏</li>
+					</ul>
+					<ol class="ban_tit2_ol">
+						<li style="display:block;" id="ff" >
+							<a href="#">充话费</a>
+							<a href="#">充流量</a>
+						</li>
+						<li>
+							<a href="#">水费</a>
+							<a href="#">电费</a>
+							<a href="#">燃气费</a>
+						</li>
+						<li>
+							<a href="#">充游戏</a>
+							<a href="#">充Q币</a>
+						</li>
+					</ol>
+					<ul class="ban_tit2_ul2">
+						<li>固话</li>
+						<li>车险</li>
+						<li>游戏中心</li>
+						<li>影音生活</li>
+						<li>违章办理</li>
+						<li>礼品卡</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--banner end new_czt-->
+		<div class="new_czt">
+			<div class="wrap lazy-fn" id="czt">
+				<div class="new_czt_l">
+					<a href="#">
+						<img src="images/1658490396.jpg"/>
+					</a>
+				</div>
+				<div class="new_czt_r">
+					<a href="javascript:;" class="new_czt_prev"><span class="iconfont iconfont-slider-left"></span></a>
+					<a href="javascript:;" class="new_czt_next" style="display: inline-block;"><span class="iconfont iconfont-slider-right"></span></a>
+					<ul class="new_czt_ul">
+						<!--<li>
+							<div class="new_czt_show">
+								<a href="#">
+									<img src="images/be1.jpg"/>
+								</a>
+								<div class="new_czt_name">
+									<a href="#">生纳 生纳立体纳米纤维口罩 男士中号 (鲨鱼灰) 5</a>
+								</div>
+								<div class="new_czt_money">
+									<div class="money">￥<span style="font-size: 16px;">69.0</span>
+										
+									</div>
+									<div class="price">参考价：￥204.0</div>
+								</div>
+							</div>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--new_tm-->
+		<div class="new_tm">
+			<div class="wrap lazy-fn">
+				<div class="new_tm_l">
+					<div class="new_tm_lbox rollBody">
+						<ul class="new_tm_lul">
+							<li>
+								<a href="#">
+									<img src="images/nel1.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/nel2.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ol class="pagechange-ol">
+						<li class="prev"></li>
+						<li class="next"></li>
+					</ol>
+					<ol class="pagechange-bar-ol">
+						<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+						<li class="listyle"><a class="li-a-process"></a></li>
+					</ol>
+				</div>
+				<ol class="new_tm_r">
+					<li>
+						<a href="javascript:;">
+							<img src="images/ner1.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/ner2.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/ner3.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/ner4.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="jx">
+							<img src="images/ner5.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="images/ner6.jpg"/>
+						</a>
+					</li>
+				</ol>
+			</div>
+		</div>
+		<!--floor-->
+		<div id="floor">
+		<div id="floor1" class="floor floor1 lazy-fn" otop="360">
+			<div class="wrap">
+				<div class="floor_box">
+					<h3 class="floor_tit">
+						<b>生鲜果蔬</b>
+					</h3>
+					<div class="floor_slide">
+						<div class="floor_slidew">
+							<ul class="main-top-scroll2">
+								<li>
+									<a href="#">
+										<img src="images/fl1_1.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_2.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_3.jpg"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<ol class="pagechange-ol">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ol>
+						<ol class="pagechange-bar-ol">
+							<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+						</ol>
+					</div>
+					<div class="floor_main">
+						<div class="floor_maint">
+							<div class="floor_img floor_img_fir">
+								<a href="#"><img src="images/t1.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t2.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t3.jpg"/></a>
+							</div>
+							<div class="floor_img floor_img_last">
+								<a href="#"><img src="images/t4.jpg"/></a>
+							</div>
+						</div>
+						<div class="floor_mainb">
+							<div class="floor_mainb_t">
+								<div class="floor_img floor_img_fir">
+									<a href="#"><img src="images/b1.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b2.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b3.jpg"/></a>
+								</div>
+								<div class="floor_img floor_img_last">
+									<a href="#"><img src="images/b4.jpg"/></a>
+								</div>
+							</div>
+							<div class="floor_mainb_b">
+								<a href="#"><img src="images/bq1.jpg"/></a>
+								<a href="#"><img src="images/bq2.jpg"/></a>
+								<a href="#"><img src="images/bq3.jpg"/></a>
+								<a href="#"><img src="images/bq4.jpg"/></a>
+								<a href="#"><img src="images/bq5.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor2" class="floor floor2 lazy-fn">
+			<div class="wrap">
+				<div class="floor_box">
+					<h3 class="floor_tit">
+						<b>时尚大牌</b>
+					</h3>
+					<div class="floor_slide">
+						<div class="floor_slidew">
+							<ul class="main-top-scroll2">
+								<li>
+									<a href="#">
+										<img src="images/fl1_1.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_2.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_3.jpg"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<ol class="pagechange-ol">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ol>
+						<ol class="pagechange-bar-ol">
+							<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+						</ol>
+					</div>
+					<div class="floor_main">
+						<div class="floor_maint">
+							<div class="floor_img floor_img_fir">
+								<a href="#"><img src="images/t1.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t2.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t3.jpg"/></a>
+							</div>
+							<div class="floor_img floor_img_last">
+								<a href="#"><img src="images/t4.jpg"/></a>
+							</div>
+						</div>
+						<div class="floor_mainb">
+							<div class="floor_mainb_t">
+								<div class="floor_img floor_img_fir">
+									<a href="#"><img src="images/b1.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b2.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b3.jpg"/></a>
+								</div>
+								<div class="floor_img floor_img_last">
+									<a href="#"><img src="images/b4.jpg"/></a>
+								</div>
+							</div>
+							<div class="floor_mainb_b">
+								<a href="#"><img src="images/bq1.jpg"/></a>
+								<a href="#"><img src="images/bq2.jpg"/></a>
+								<a href="#"><img src="images/bq3.jpg"/></a>
+								<a href="#"><img src="images/bq4.jpg"/></a>
+								<a href="#"><img src="images/bq5.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor3" class="floor floor3 lazy-fn">
+			<div class="wrap">
+				<div class="floor_box">
+					<h3 class="floor_tit">
+						<b>食品饮料</b>
+					</h3>
+					<div class="floor_slide">
+						<div class="floor_slidew">
+							<ul class="main-top-scroll2">
+								<li>
+									<a href="#">
+										<img src="images/fl1_1.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_2.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_3.jpg"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<ol class="pagechange-ol">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ol>
+						<ol class="pagechange-bar-ol">
+							<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+						</ol>
+					</div>
+					<div class="floor_main">
+						<div class="floor_maint">
+							<div class="floor_img floor_img_fir">
+								<a href="#"><img src="images/t1.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t2.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t3.jpg"/></a>
+							</div>
+							<div class="floor_img floor_img_last">
+								<a href="#"><img src="images/t4.jpg"/></a>
+							</div>
+						</div>
+						<div class="floor_mainb">
+							<div class="floor_mainb_t">
+								<div class="floor_img floor_img_fir">
+									<a href="#"><img src="images/b1.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b2.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b3.jpg"/></a>
+								</div>
+								<div class="floor_img floor_img_last">
+									<a href="#"><img src="images/b4.jpg"/></a>
+								</div>
+							</div>
+							<div class="floor_mainb_b">
+								<a href="#"><img src="images/bq1.jpg"/></a>
+								<a href="#"><img src="images/bq2.jpg"/></a>
+								<a href="#"><img src="images/bq3.jpg"/></a>
+								<a href="#"><img src="images/bq4.jpg"/></a>
+								<a href="#"><img src="images/bq5.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor4" class="floor floor4 lazy-fn">
+			<div class="wrap">
+				<div class="floor_box">
+					<h3 class="floor_tit">
+						<b>精品百货</b>
+					</h3>
+					<div class="floor_slide">
+						<div class="floor_slidew">
+							<ul class="main-top-scroll2">
+								<li>
+									<a href="#">
+										<img src="images/fl1_1.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_2.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_3.jpg"/>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+						<ol class="pagechange-ol">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ol>
+						<ol class="pagechange-bar-ol">
+							<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+						</ol>
+					</div>
+					<div class="floor_main">
+						<div class="floor_maint">
+							<div class="floor_img floor_img_fir">
+								<a href="#"><img src="images/t1.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t2.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t3.jpg"/></a>
+							</div>
+							<div class="floor_img floor_img_last">
+								<a href="#"><img src="images/t4.jpg"/></a>
+							</div>
+						</div>
+						<div class="floor_mainb">
+							<div class="floor_mainb_t">
+								<div class="floor_img floor_img_fir">
+									<a href="#"><img src="images/b1.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b2.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b3.jpg"/></a>
+								</div>
+								<div class="floor_img floor_img_last">
+									<a href="#"><img src="images/b4.jpg"/></a>
+								</div>
+							</div>
+							<div class="floor_mainb_b">
+								<a href="#"><img src="images/bq1.jpg"/></a>
+								<a href="#"><img src="images/bq2.jpg"/></a>
+								<a href="#"><img src="images/bq3.jpg"/></a>
+								<a href="#"><img src="images/bq4.jpg"/></a>
+								<a href="#"><img src="images/bq5.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor5" class="floor floor5 lazy-fn">
+			<div class="wrap">
+				<div class="floor_box">
+					<h3 class="floor_tit">
+						<b>个护清洁</b>
+					</h3>
+					<div class="floor_slide">
+						<div class="floor_slidew">
+							<ul class="main-top-scroll2">
+								<li>
+									<a href="#">
+										<img src="images/fl1_1.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_2.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_3.jpg"/>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+						<ol class="pagechange-ol">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ol>
+						<ol class="pagechange-bar-ol">
+							<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+						</ol>
+					</div>
+					<div class="floor_main">
+						<div class="floor_maint">
+							<div class="floor_img floor_img_fir">
+								<a href="#"><img src="images/t1.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t2.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t3.jpg"/></a>
+							</div>
+							<div class="floor_img floor_img_last">
+								<a href="#"><img src="images/t4.jpg"/></a>
+							</div>
+						</div>
+						<div class="floor_mainb">
+							<div class="floor_mainb_t">
+								<div class="floor_img floor_img_fir">
+									<a href="#"><img src="images/b1.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b2.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b3.jpg"/></a>
+								</div>
+								<div class="floor_img floor_img_last">
+									<a href="#"><img src="images/b4.jpg"/></a>
+								</div>
+							</div>
+							<div class="floor_mainb_b">
+								<a href="#"><img src="images/bq1.jpg"/></a>
+								<a href="#"><img src="images/bq2.jpg"/></a>
+								<a href="#"><img src="images/bq3.jpg"/></a>
+								<a href="#"><img src="images/bq4.jpg"/></a>
+								<a href="#"><img src="images/bq5.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor6" class="floor floor6 lazy-fn">
+			<div class="wrap">
+				<div class="floor_box">
+					<h3 class="floor_tit">
+						<b>母婴玩具</b>
+					</h3>
+					<div class="floor_slide">
+						<div class="floor_slidew">
+							<ul class="main-top-scroll2">
+								<li>
+									<a href="#">
+										<img src="images/fl1_1.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_2.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_3.jpg"/>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+						<ol class="pagechange-ol">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ol>
+						<ol class="pagechange-bar-ol">
+							<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+						</ol>
+					</div>
+					<div class="floor_main">
+						<div class="floor_maint">
+							<div class="floor_img floor_img_fir">
+								<a href="#"><img src="images/t1.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t2.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t3.jpg"/></a>
+							</div>
+							<div class="floor_img floor_img_last">
+								<a href="#"><img src="images/t4.jpg"/></a>
+							</div>
+						</div>
+						<div class="floor_mainb">
+							<div class="floor_mainb_t">
+								<div class="floor_img floor_img_fir">
+									<a href="#"><img src="images/b1.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b2.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b3.jpg"/></a>
+								</div>
+								<div class="floor_img floor_img_last">
+									<a href="#"><img src="images/b4.jpg"/></a>
+								</div>
+							</div>
+							<div class="floor_mainb_b">
+								<a href="#"><img src="images/bq1.jpg"/></a>
+								<a href="#"><img src="images/bq2.jpg"/></a>
+								<a href="#"><img src="images/bq3.jpg"/></a>
+								<a href="#"><img src="images/bq4.jpg"/></a>
+								<a href="#"><img src="images/bq5.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor7" class="floor floor7 lazy-fn">
+			<div class="wrap">
+				<div class="floor_box">
+					<h3 class="floor_tit">
+						<b>家居家纺</b>
+					</h3>
+					<div class="floor_slide">
+						<div class="floor_slidew">
+							<ul class="main-top-scroll2">
+								<li>
+									<a href="#">
+										<img src="images/fl1_1.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_2.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_3.jpg"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<ol class="pagechange-ol">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ol>
+						<ol class="pagechange-bar-ol">
+							<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+						</ol>
+					</div>
+					<div class="floor_main">
+						<div class="floor_maint">
+							<div class="floor_img floor_img_fir">
+								<a href="#"><img src="images/t1.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t2.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t3.jpg"/></a>
+							</div>
+							<div class="floor_img floor_img_last">
+								<a href="#"><img src="images/t4.jpg"/></a>
+							</div>
+						</div>
+						<div class="floor_mainb">
+							<div class="floor_mainb_t">
+								<div class="floor_img floor_img_fir">
+									<a href="#"><img src="images/b1.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b2.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b3.jpg"/></a>
+								</div>
+								<div class="floor_img floor_img_last">
+									<a href="#"><img src="images/b4.jpg"/></a>
+								</div>
+							</div>
+							<div class="floor_mainb_b">
+								<a href="#"><img src="images/bq1.jpg"/></a>
+								<a href="#"><img src="images/bq2.jpg"/></a>
+								<a href="#"><img src="images/bq3.jpg"/></a>
+								<a href="#"><img src="images/bq4.jpg"/></a>
+								<a href="#"><img src="images/bq5.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="floor8" class="floor floor8 lazy-fn">
+			<div class="wrap">
+				<div class="floor_box">
+					<h3 class="floor_tit">
+						<b>3C数码</b>
+					</h3>
+					<div class="floor_slide">
+						<div class="floor_slidew">
+							<ul class="main-top-scroll2">
+								<li>
+									<a href="#">
+										<img src="images/fl1_1.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_2.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/fl1_3.jpg"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<ol class="pagechange-ol">
+							<li class="prev"></li>
+							<li class="next"></li>
+						</ol>
+						<ol class="pagechange-bar-ol">
+							<li class="listyle" style="background: #889285;"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+							<li class="listyle"><a class="li-a-process"></a></li>
+						</ol>
+					</div>
+					<div class="floor_main">
+						<div class="floor_maint">
+							<div class="floor_img floor_img_fir">
+								<a href="#"><img src="images/t1.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t2.jpg"/></a>
+							</div>
+							<div class="floor_img">
+								<a href="#"><img src="images/t3.jpg"/></a>
+							</div>
+							<div class="floor_img floor_img_last">
+								<a href="#"><img src="images/t4.jpg"/></a>
+							</div>
+						</div>
+						<div class="floor_mainb">
+							<div class="floor_mainb_t">
+								<div class="floor_img floor_img_fir">
+									<a href="#"><img src="images/b1.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b2.jpg"/></a>
+								</div>
+								<div class="floor_img">
+									<a href="#"><img src="images/b3.jpg"/></a>
+								</div>
+								<div class="floor_img floor_img_last">
+									<a href="#"><img src="images/b4.jpg"/></a>
+								</div>
+							</div>
+							<div class="floor_mainb_b">
+								<a href="#"><img src="images/bq1.jpg"/></a>
+								<a href="#"><img src="images/bq2.jpg"/></a>
+								<a href="#"><img src="images/bq3.jpg"/></a>
+								<a href="#"><img src="images/bq4.jpg"/></a>
+								<a href="#"><img src="images/bq5.jpg"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--also like-->
+		<div class="alsolike lazy-fn" id="olikes1">
+			<div class="featured_tit">
+				<div class="guess_love">
+					<i class="iconfont iconfont-like"></i>
+					猜你喜欢
+					<span>Guess you like</span>
+				</div>
+			</div>
+			<div class="featured_log">
+				<a class="main_not_login" href="#">登录</a>后推荐更准确
+			</div>
+			<ol class="like_class">
+				<!--<li>
+					<div class="pro-show">
+						<div class="pro-img">
+							<a href="#">
+								<img src="images/like1.jpg"/>
+							</a>
+						</div>
+						<div class="pro-name">
+							<a href="#">新雅 烧烤味鸡翅 225g</a>
+						</div>
+						<div class="pro-money">
+							<div class="money-fl">
+								￥<span style="font-size: 18px;">23.8</span>
+								<a href="#" class="geta"><i class="iconfont iconfont-like"></i>收藏</a>
+							</div>
+						</div>
+					</div>
+				</li>-->
+				
+			</ol>
+			<ol class="like_class"></ol>
+			<ol class="like_class"></ol>
+			<ol class="like_class"></ol>
+			<ol class="like_class"></ol>
+			<ol class="like_class"></ol>
+		</div>
+		<!--footer-->
+		<div id="footer" class="footer">
+			<div class="helpnav clearfix">
+				<div class="wrap">
+					<div class="footer-center">
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic1"></i>新手入门
+							</div>
+							<ul>
+								<li>
+									<a href="#">购物流程</a>
+								</li>
+								<li>
+									<a href="#">会员介绍</a>
+								</li>
+								<li>
+									<a href="#">常见问题</a>
+								</li>
+								<li>
+									<a href="#">发票说明</a>
+								</li>
+								<li>
+									<a href="#">联系客服</a>
+								</li>
+							</ul>
+						</div>
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic2"></i>配送服务
+							</div>
+							<ul>
+								<li>
+									<a href="#">配送范围及运费</a>
+								</li>
+								<li>
+									<a href="#">配送进度查询</a>
+								</li>
+								<li>
+									<a href="#">自提服务</a>
+								</li>
+								<li>
+									<a href="#">商品验货与签收</a>
+								</li>
+							</ul>
+						</div>
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic3"></i>支付方式
+							</div>
+							<ul>
+								<li>
+									<a href="#">货到付款</a>
+								</li>
+								<li>
+									<a href="#">在线支付</a>
+								</li>
+							</ul>
+						</div>
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic4"></i>售后服务
+							</div>
+							<ul>
+								<li>
+									<a href="#">退换货政策</a>
+								</li>
+								<li>
+									<a href="#">退款说明</a>
+								</li>
+							</ul>
+						</div>
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic5"></i>商品支持
+							</div>
+							<ul>
+								<li>
+									<a href="#">商家入驻</a>
+								</li>
+								<li>
+									<a href="#">商家规则</a>
+								</li>
+								<li>
+									<a href="#">商家常见问题</a>
+								</li>
+								<li>
+									<a href="#">发票说明</a>
+								</li>
+								<li>
+									<a href="#">联系客服</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-nav">
+				<div>
+					<a href="#">关于我们</a>
+					<span>|</span>
+					<a href="#">联系我们</a>
+					<span>|</span>
+					<a href="#">加盟合作</a>
+					<span>|</span>
+					<a href="#">诚征英才</a>
+					<span>|</span>
+					<a href="#">友情链接</a>
+					
+				</div>
+				<div class="copyright">
+					百联集团有限公司旗下 上海百联全渠道电子商务有限公司版权所有 
+					<span>|</span>
+					  客服电话：400-900-8800  
+					<span>|</span>
+					 沪ICP备15028847号
+				</div>
+				<a href="#" class="drug-message">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+				<div class="police">
+					<a href="#">
+						<img src="images/gongan.png"/>
+						<span>沪公网安备  31010102002366号</span>
+					</a>
+					<a href="#">
+						<img src="images/wangjing.png"/>
+						<span>网购大家评</span>
+					</a>
+					<a href="#">
+						<img src="images/gongs.png"/>
+						<span>上海工商</span>
+					</a>
+					<a href="#">
+						<img src="images/zhizhao.png"/>
+						<span>经营执照</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	//#var h = $(".floor1")
+</script>

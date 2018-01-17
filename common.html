@@ -1,0 +1,1993 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		
+	</head>
+	<body class="w1200">
+		<!--右侧功能栏-->
+		<div class="right-slidebar" id="rside">
+			<div id="right">
+	    	<ul>
+	    		<li>
+	        		<i class="iconfont iconfont-user2"></i><em class="s">我的信息</em>     	
+	    		</li>
+	    		<li style="height: 120px;">
+	        		<i class="iconfont iconfont-cart-kong gcar" >
+	        			
+	        		</i>
+	        		<p style="line-height:16px;font-size:16px;margin-top:10px">购<br>物<br>车</p> 
+	        		 	
+	    		</li>
+	    		<li>
+	        		<i class="iconfont iconfont-cang2"></i> <em class="s">我的收藏</em>  	       	
+	    		</li>
+	    		<li>
+	        		<i class="iconfont iconfont-dengdai"></i>  <em class="s">历史记录</em>    	
+	    		</li>
+	    		<li>
+	        		<i class="iconfont iconfont-kefu"></i>	 <em class="s">客服</em>  	
+	    		</li>
+	    		<li>
+	        		<i class="iconfont iconfont-arrow2-top"></i>	 <em class="s last">返回顶部</em>  	
+	    		</li>
+	    	</ul>
+    		</div>
+		</div>
+		<!--头部-->
+		<!--tools-->
+		<div class="tools">
+			<div class="wrap">
+				<div class="bl-name" title="百联集团旗下全渠道电商平台">
+					<div class="txt">
+						百联集团旗下全渠道电商平台
+					</div>
+				</div>
+				<div class="tools-left">
+					<div class="tools-leftfont">
+						<a href="#">
+							<span>网站导航</span>
+							<i></i>
+						</a>
+					</div>
+					<div class="left-span"></div>
+					<div class="divshow left-show">
+						<div class="left-show-dl">
+							<dl>
+								<dd>
+									<a href="http://www.bailiangroup.cn/">百联集团官网</a>
+								</dd>
+								<dd>
+									<a href="http://www.safepass.cn/">安付宝网</a>
+								</dd>
+								<dd>
+									<a href="http://www.dyyy.com.cn/">第一医药</a>
+								</dd>
+								<dd>
+									<a href="https://www.okcard.com/clogin">OK会员卡专区</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+					
+				<div class="tools-info">
+					<s style="display:none"> •</s>
+					<a href="#">消息</a>
+				</div>
+				<div class="tools-right">
+					<ul>
+						<li id="user_not_login" class="box">
+                			<div>
+	                			<a href="javascript:void(0);" class="login-button"><i></i><span>请登录</span></a>
+	                			<a id="headerReg" href="javascript:void(0);" class="registered">注册</a>
+                			</div>
+                    	<b></b>
+                		</li>
+                		<li style="display: none" class="box-tols" id="user_login_in">
+							<a href="https://my.bl.com/ym/nl/toIndex.html" target="_blank">
+								<i>Hi，</i>
+								<span id="member_name"></span>
+							</a>
+							<a href="https://passport.bl.com/loginDisplay.html?type=logout">退出</a>
+							<b></b>
+						</li>
+						<li>
+							<div class="tools-leftfont">
+								<a target="_blank" href="https://my.bl.com/ym/orderList.html">我的订单
+								</a>
+							</div>
+							<b></b>
+						</li>
+						<li>
+		                    <div class="tools-leftfont"><a target="_blank" href="https://my.bl.com"><span>我的百联</span><i></i></a></div>
+		                    <span class="left-span"></span>
+		                    <b></b>
+		                    <div class="divshow hdiv">
+		                        <dl>
+		                            <dd><a target="_blank" href="https://my.bl.com/ym/orderList.html">我的订单</a></dd>
+		                            <dd><a target="_blank" href="https://my.bl.com/ym/commentList.html">我的评价</a></dd>
+		                            <dd><a target="_blank" href="https://my.bl.com/ym/nl/memberPointList.html">我的积分</a></dd>
+		                            <dd><a target="_blank" href="https://my.bl.com/favorite/myFavorite.html">我的收藏</a></dd>
+		                            <dd><a target="_blank" href="https://my.bl.com/center/series/myCoupon.html">我的优惠券</a></dd>
+		                        </dl>
+		                    </div>
+		                </li>
+		                <li>
+		                    <div class="tools-leftfont"><a target="_blank" href="http://jiaofei.bl.com"><span>充值缴费</span><i></i></a></div>
+		                    <span class="left-span"></span>
+		                    <b></b>
+		                    <div class="divshow pay">
+		                        <dl class="pay-dl">
+		                        	<dd>
+		                                <div class="pay-title">影娱生活</div>
+		                                <div class="pay-head">
+		                                    <a target="_blank" onclick="clickButton('影娱生活',null,null,'首页top','PC_Fees',null);" href="http://chongzhi.bl.com/migu/home.html">咪咕电影卡</a>
+		                                </div>
+		                            </dd>
+		                            
+		                            <dd>
+		                                <div class="pay-title">水电煤缴费</div>
+		                                <div class="pay-head">
+		                                    <a target="_blank" onclick="clickButton('缴费首页',null,null,'首页top','PC_Fees',null);" href="http://jiaofei.bl.com">缴费首页</a>
+		                                    <a target="_blank" onclick="clickButton('水费缴费',null,null,'首页top','PC_Fees',null);" href="http://jiaofei.bl.com/syf/pubfeepage.html?type=sf">水费缴费</a>
+		                                    <a target="_blank" onclick="clickButton('电费缴费',null,null,'首页top','PC_Fees',null);" href="http://jiaofei.bl.com/syf/pubfeepage.html?type=dl">电费缴费</a>
+		                                    <a target="_blank" onclick="clickButton('燃气缴费',null,null,'首页top','PC_Fees',null);" href="http://jiaofei.bl.com/syf/pubfeepage.html?type=mq">燃气缴费</a>
+		                                </div>
+		                            </dd>
+		                            
+		                            <dd>
+		                                <div class="pay-title">手机充值</div>
+		                                <div class="pay-head">
+		                                    <a target="_blank" onclick="clickButton('手机充值',null,null,'首页top','PC_Fees',null);" href="http://chongzhi.bl.com/cz/czpage.html">手机充值</a>
+		                                    <a target="_blank" onclick="clickButton('流量充值',null,null,'首页top','PC_Fees',null);" href="http://chongzhi.bl.com/cardll/cardllpage.html">流量充值</a>
+		                                    <a target="_blank" onclick="clickButton('更多充值',null,null,'首页top','PC_Fees',null);" href="http://chongzhi.bl.com/cz/lbczpage.html">更多充值</a>
+		                                </div>
+		                            </dd>
+		                            
+		                            <dd>
+		                                <div class="pay-title">其他缴费</div>
+		                                <div class="pay-head">
+		                                <a target="_blank" onclick="clickButton('固话/宽带充值',null,null,'首页top','PC_Fees',null);" href="http://jiaofei.bl.com/other/otherfee.html?type=tel">固话/宽带充值</a>
+		                                    <a target="_blank" onclick="clickButton('铁通缴费',null,null,'首页top','PC_Fees',null);" href="http://jiaofei.bl.com/other/otherfee.html?type=tt">铁通缴费</a>
+		                                    <a target="_blank" onclick="clickButton('有线电视缴费',null,null,'首页top','PC_Fees',null);" href="http://jiaofei.bl.com/other/otherfee.html?type=ds">有线电视缴费</a>
+		                                </div>
+		                            </dd>
+		                            
+		                            <dd>
+		                                <div class="pay-title">游戏点卡</div>
+		                                <div class="pay-head">
+		                                    <a target="_blank" onclick="clickButton('腾讯Q币充值',null,null,'首页top','PC_Fees',null);" href="http://chongzhi.bl.com/game/gamerechange.html">腾讯Q币充值</a>
+		                                    <a target="_blank" onclick="clickButton('盛大点券充值',null,null,'首页top','PC_Fees',null);" href="http://chongzhi.bl.com/game/capassgame.html?dsplb=01108&amp;dsphh=364009">盛大点券充值</a>
+		                                    <a target="_blank" onclick="clickButton('游戏中心',null,null,'首页top','PC_Fees',null);" href="https://passport.bl.com/toGameCenterLogin.html">游戏中心</a>
+		                                    <a target="_blank" onclick="clickButton('更多游戏',null,null,'首页top','PC_Fees',null);" href="http://chongzhi.bl.com/game/gameshoplist.html">更多游戏</a>
+		                                </div>
+		                            </dd>
+		                            
+		                            <dd>
+		                                <div class="pay-title">其他险种</div>
+		                                <div class="pay-head">
+		                                <a target="_blank" onclick="clickButton('车险',null,null,'首页top','PC_Fees',null);" href="http://bx.bl.com">车险</a>
+		                               
+		                                    
+		                                </div>
+		                            </dd>
+		                            
+		                        </dl>
+		                    </div>
+		                </li>
+		                <li>
+		                    <div class="tools-leftfont"><a href="javascript:void(0);"><span>客户服务</span><i></i></a></div>
+		                    <span class="left-span"></span>
+		                    <b></b>
+		                    <div class="divshow hdiv">
+		                        <dl>
+		                            <dd><a target="_blank" href="http://chat.bl.com/chat/client/si?skill=2000&amp;vip=0&amp;phone=">在线客服</a></dd>
+		                            <dd><a target="_blank" href="http://help.bl.com/helpCentersv7.html">帮助中心</a></dd>
+		                        </dl>
+		                    </div>
+		                </li>
+		                <li>
+		                	<div class="tools-leftfont">
+		                		<a href="javascript:;">
+		                			<span>掌上百联</span><i></i>
+		                		</a>
+		                	</div>
+		                	<span class="left-span"></span>
+		                	<b></b>
+		                	<div class="divshow palm">
+		                		<div class="palm-item">
+		                			<a class="palm-item-img">
+		                				<img src="images/res13849.jpg" width="100" height="100">
+		                			</a>
+		                			<div class="palm-item-line">
+		                				<a class="palm-item-title">i百联APP</a>
+		                			</div>
+		                			<div class="palm-item-line">
+		                				<a class="palm-item-message">手机购物更方便
+		                				</a>
+		                			</div>
+		                		</div>
+		                	</div>
+		                </li>
+		                <li>
+		                    <div class="tools-leftfont">
+		                    	<a target="_blank" href="http://cart.bl.com">
+		                    		<span>购物车</span>
+		                    	</a>
+		                    </div>
+		                    <b></b>
+		                </li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<!--header-->
+		<div class="header">
+			<div class="wrap">
+				<div class="header-font">
+					<div class="header-logo">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/header-logo.png"/>
+							</a>
+						</div>
+						<div class="secondary-logo">
+							<a href="#">
+								<img src="images/1588006794.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="header-search">
+						<div class="fl">
+							<div class="header-search-top">
+								<div class="header-search-input">
+									<div class="indiv">
+										<input type="text" class="gray" placeholder="牛奶" id="first_header_search_input"/>
+									</div>
+								</div>
+								<div class="header-search-button">
+									<button type="submit">
+										<span class="iconfont iconfont-search"></span>
+									</button>
+								</div>
+							</div>
+							<div class="header-search-font">
+								<a href="#">香梨</a>
+								<span>|</span>
+								<a href="#">银耳</a>
+								<span>|</span>
+								<a href="#">鲁花</a>
+								<span>|</span>
+								<a href="#">花王</a>
+								<span>|</span>
+								<a href="#">卫生巾</a>
+								<span>|</span>
+								<a href="#">大王天使</a>
+								<span>|</span>
+								<a href="#">欧舒丹</a>
+								<span>|</span>
+								<a href="#">洗衣液</a>
+								<span>|</span>
+								<a href="#">华为</a>
+								<span>|</span>
+								<a href="#">iphone</a>
+							</div>
+						</div>
+						<div class="fr-w">
+							<div class="fr">
+								<a href="http://www.okcard.com" target="_blank">安付宝OK卡专区<span class="iconfont iconfont-arrow2-right"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--nav-->
+		<div class="nav">
+			<div class="wrap">
+				<div class="nav-left">
+					<div class="nav-leftfont">
+						<i class="iconfont iconfont-menu"></i>
+						<a href="#"><span>所有商品分类</span></a>
+					</div>
+					<div class="show-nav" style="display: none;">
+						<div class="banner-itemleft int-nav index-none">
+							<ul id="item">
+								<li>
+									<i class="iconfont iconfont-huangguan jinkou"></i>
+									<span>
+										<a href="#">百联进口  全球购</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-apple shengxian"></i>
+									<span>
+										<a href="#">生鲜食品</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-face shipin"></i>
+									<span>
+										<a href="#">食品粮酒</a>
+										<a href="#">酒水冲饮</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-liwu huli"></i>
+									<span>
+										<a href="#">美容护理</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-chajian muying"></i>
+									<span>
+										<a href="#">母婴玩具</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-moban jiaju"></i>
+									<span>
+										<a href="#">餐厨用具   家居家装</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-cut lengdong"></i>
+									<span>
+										<a href="#">家清  纸品  一次性</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-pifu fuzhuang"></i>
+									<span>
+										<a href="#">女装 男装</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-goods xiangbao"></i>
+									<span>
+										<a href="#">鞋靴箱包</a>
+										<a href="#">珠宝饰品</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-phone shouji"></i>
+									<span>
+										<a href="#">手机数码</a>
+										<a href="#">电脑办公</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-dayinji jiadian"></i>
+									<span>
+										<a href="#">家用电器</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-wuliu qiche"></i>
+									<span>
+										<a href="#">运动户外</a>
+										<a href="#">汽车用品</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-dianpu yiyao"></i>
+									<span>
+										<a href="#">营养滋补</a>
+										<a href="#">保健器械</a>
+									</span>
+								</li>
+								<li>
+									<i class="iconfont iconfont-vip-card2 carbook"></i>
+									<span>
+										<a href="#">礼品卡</a>
+										<a href="#">充值</a>
+										<a href="#">图书</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="left-ul-show clearfix" style="margin-left: 0px;opacity:1;">	
+							<ul class="site_cat site_cat1">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat2">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat3">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat4">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat5">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat6">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat7">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat8">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat9">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat10">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat11">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat12">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat13">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+							<ul class="site_cat site_cat14">
+								<li class="clearfix">
+									<h2><a href="">保健食品:</a></h2>
+									<div></div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li class="clearfix">
+									<h2><a href="">进口水果:</a></h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+								<li>
+									<h2 class="clearfix">
+										<a href="">推荐品牌</a>
+									</h2>
+									<div>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+										<a href="">释迦芭乐</a>
+										<a href="">樱桃车厘子</a>
+										<a href="">杧果桃李</a>
+										<a href="">龙眼荔枝</a>
+										<a href="">小波</a>
+										<a href="">奇异果猕猴桃</a>
+										<a href="">凤梨蓝莓</a>
+										<a href="">榴莲山竹</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="nav-right">
+					<ul>
+						<li>
+							<a href="#">生活<span></span></a>
+						</li>
+						<li>
+							<a href="#">24H百货<span></span></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/2059598265.gif"><span></span></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/1935516503.gif"><span></span></a>
+						</li>
+						<li>
+							<a href="#">电器城<span></span></a>
+						</li>
+						<li>
+							<a href="#">奥莱代购<span></span></a>
+						</li>
+						<li>
+							<a href="#">礼品卡<span></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<!--footer-->
+		<div id="footer" class="footer">
+			<div class="helpnav clearfix">
+				<div class="wrap">
+					<div class="footer-center">
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic1"></i>新手入门
+							</div>
+							<ul>
+								<li>
+									<a href="#">购物流程</a>
+								</li>
+								<li>
+									<a href="#">会员介绍</a>
+								</li>
+								<li>
+									<a href="#">常见问题</a>
+								</li>
+								<li>
+									<a href="#">发票说明</a>
+								</li>
+								<li>
+									<a href="#">联系客服</a>
+								</li>
+							</ul>
+						</div>
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic2"></i>配送服务
+							</div>
+							<ul>
+								<li>
+									<a href="#">配送范围及运费</a>
+								</li>
+								<li>
+									<a href="#">配送进度查询</a>
+								</li>
+								<li>
+									<a href="#">自提服务</a>
+								</li>
+								<li>
+									<a href="#">商品验货与签收</a>
+								</li>
+							</ul>
+						</div>
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic3"></i>支付方式
+							</div>
+							<ul>
+								<li>
+									<a href="#">货到付款</a>
+								</li>
+								<li>
+									<a href="#">在线支付</a>
+								</li>
+							</ul>
+						</div>
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic4"></i>售后服务
+							</div>
+							<ul>
+								<li>
+									<a href="#">退换货政策</a>
+								</li>
+								<li>
+									<a href="#">退款说明</a>
+								</li>
+							</ul>
+						</div>
+						<div class="helpnav-list">
+							<div class="helpnav-title">
+								<i class="footic5"></i>商品支持
+							</div>
+							<ul>
+								<li>
+									<a href="#">商家入驻</a>
+								</li>
+								<li>
+									<a href="#">商家规则</a>
+								</li>
+								<li>
+									<a href="#">商家常见问题</a>
+								</li>
+								<li>
+									<a href="#">发票说明</a>
+								</li>
+								<li>
+									<a href="#">联系客服</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-nav">
+				<div>
+					<a href="#">关于我们</a>
+					<span>|</span>
+					<a href="#">联系我们</a>
+					<span>|</span>
+					<a href="#">加盟合作</a>
+					<span>|</span>
+					<a href="#">诚征英才</a>
+					<span>|</span>
+					<a href="#">友情链接</a>
+					
+				</div>
+				<div class="copyright">
+					百联集团有限公司旗下 上海百联全渠道电子商务有限公司版权所有 
+					<span>|</span>
+					  客服电话：400-900-8800  
+					<span>|</span>
+					 沪ICP备15028847号
+				</div>
+				<a href="#" class="drug-message">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+				<div class="police">
+					<a href="#">
+						<img src="images/gongan.png"/>
+						<span>沪公网安备  31010102002366号</span>
+					</a>
+					<a href="#">
+						<img src="images/wangjing.png"/>
+						<span>网购大家评</span>
+					</a>
+					<a href="#">
+						<img src="images/gongs.png"/>
+						<span>上海工商</span>
+					</a>
+					<a href="#">
+						<img src="images/zhizhao.png"/>
+						<span>经营执照</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

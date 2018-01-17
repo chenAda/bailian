@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/zhuanti.css" />
+		<link rel="stylesheet" href="style/pagination.css" />
+		
+		<!--<script src="js/require.js" defer async="true" data-main = "js/main"></script>-->
+		
+		<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>
+		<script src="script/jquery.pagination.js"></script>
+		<script type="text/javascript" src="js/zhuanti.js" ></script>
+		<script type="text/javascript" src="js/cookie.js" ></script>
+		
+	</head>
+	<body class="w1200">
+		<div class="zright"></div>
+		<div class="top"></div>
+		<div class="zheader"></div>
+		<div class="znav"></div>
+		<div class="wrap main-center">
+			<div class="path">
+				<div class="path-left">
+					<div class="pathclip ovhidden">
+						<div class="path-pa">
+							<div class="path-icon path-font">
+								<a href="index.html">首页</a>
+							</div>
+							<div class="path-icon path-current">
+								<a href="#">食品粮油</a>
+							</div>
+							<div class="path-icon">
+								<div class="path-show">
+									<span>
+										<a href="#">饼干/糕点</a>
+									</span>
+									<div class="show-drop">
+										<div class="show-drop-bg">
+											<ul class="ul-secondary">
+												<li>
+													<dl>
+														<dd>
+															<a href="#">食用油</a>
+														</dd>
+														<dd>
+															<a href="#">厨房调料/果酱/沙拉</a>
+														</dd>
+														<dd>
+															<a href="#">方便速食</a>
+														</dd>
+														<dd>
+															<a href="#">南北干货</a>
+														</dd>
+														<dd class="on">
+															<a href="#">饼干/糕点</a>
+														</dd>
+														<dd>
+															<a href="#">休闲零食</a>
+														</dd>
+													</dl>
+												</li>
+												<li>
+													<dl>
+														<dd>
+															<a href="#">糖果/巧克力/果冻/布丁</a>
+														</dd>
+														<dd>
+															<a href="#">粮食制品</a>
+														</dd>
+														<dd>
+															<a href="#">无糖食品</a>
+														</dd>
+													</dl>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="path-icon"></div>
+							<div class="path-icon searchBox">
+								<div class="path-input">
+									<input type="text" id="keySearchInput" placeholder="在当前条件下搜索" />
+									<button type="button" id="keySearch"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="path-right">
+					共找到
+					<strong>
+						<span id="merchantCount">1295</span>
+					</strong>
+					件商品
+				</div>
+			</div>
+			<div class="filter">
+				<div class="filter-item">
+					<div class="filter-left">
+						<span>饼干/糕点</span>
+					</div>
+					<div class="filter-right">
+						<div class="wid-list">
+							<div class="sx-show show1">
+								<div class="filter-right-item">
+									<a href="#">饼干</a>
+								</div>
+								<div class="filter-right-item">
+									<a href="#">西式糕点</a>
+								</div>
+								<div class="filter-right-item">
+									<a href="#">传统糕点</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="filter-item">
+					<div class="filter-left">
+						<span>品牌</span>
+					</div>
+					<div class="filter-right">
+						<div class="wid-list">
+							<div class="sx-show shshow">
+								<ul class="list-class">
+									<a href="javascript:;">
+										<li>
+											<span>
+												<img src="images/1371754616.jpg"/>
+												<i>良品铺子</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/geligao.jpg"/>
+												<i>格力高(Glico)</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/xufuji.jpg"/>
+												<i>徐福记</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/6.jpg"/>
+												<i>好丽友(ORION)</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/zhudisi.jpg"/>
+												<i>茱蒂丝(Juloe's)</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/0127142338.jpg"/>
+												<i>康师傅</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/jiaxiami.jpg"/>
+												<i>呷虾咪</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/jiahui1.jpg"/>
+												<i>佳惠</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/panpan.jpg"/>
+												<i>盼盼</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/meixin.jpg"/>
+												<i>美心</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/oreo.jpg"/>
+												<i>奥利奥</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/taipin.jpg"/>
+												<i>太平</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/languan120.jpg"/>
+												<i>丹麦蓝罐</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/laijia.jpg"/>
+												<i>莱家</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/20140218162221561.jpg"/>
+												<i>小林煎饼</i>
+											</span>
+										</li>
+									</a>
+									<a href="#">
+										<li>
+											<span>
+												<img src="images/wulixiang.jpg"/>
+												<i>屋里香</i>
+											</span>
+										</li>
+									</a>
+								</ul>
+							</div>
+					    </div>
+					</div>
+				</div>
+				<div class="filter-item">
+					<div class="filter-left">
+						<span>包装</span>
+					</div>
+					<div class="filter-right">
+						<div class="fr-button">
+							<div class="fr-button-a frbutton3">多选 +</div>
+						</div>
+						<div class="wid-list" style="display: block;">
+							<div class="sx-show show1" style="display: block;">
+								<div class="filter-right-item"><a title="盒装" href="javascript:;">盒装</a></div>
+								<div class="filter-right-item"><a title="袋装" href="javascript:;">袋装</a></div>
+								<div class="filter-right-item"><a title="罐装" href="javascript:;">罐装</a></div>
+									<div class="filter-right-item"><a title="礼盒装" href="javascript:;">礼盒装</a></div>
+									<div class="clr"></div>
+								</div>
+							
+							<div class="sx-show multiselect" style="display: none;" href="javascript:;">
+								<label><input type="checkbox" value="盒装" ><span>盒装</span></label>
+							    <label><input type="checkbox" value="袋装" ><span>袋装</span></label>
+							    <label><input type="checkbox" value="罐装" ><span>罐装</span></label>
+							    <label><input type="checkbox" value="礼盒装" ><span>礼盒装</span></label>
+							    <div class="clr"></div>
+						        <div class="showbutton" style="display: none;">
+						        	<button type="button" class="btn w48 sbutton btn-notsubmit" disabled="disabled">确定</button>
+						        	<button type="button" class="btn btn-submit btn-submitclick w48 prop-btn">取消</button>
+						        </div>
+                   			</div>
+                    	</div>
+					</div>
+				</div>
+				<div class="filter-item">
+					<div class="filter-left">
+						<span>产地</span>
+					</div>
+					<div class="filter-right">
+	        	<div class="fr-button">
+						<div class="fr-button-a frbutton3">多选 +</div>
+						<div class="fr-button-b frbutton2">展开</div>
+	        	</div>
+						<div class="wid-list" style="display: block;">
+							<div class="sx-show show1" style="display: block;">
+								<div class="filter-right-item"><a title="中国" href="javascript:;">中国</a></div>
+									<div class="filter-right-item"><a title="马来西亚" href="javascript:;">马来西亚</a></div>
+									<div class="filter-right-item"><a title="意大利" href="javascript:;">意大利</a></div>
+									<div class="filter-right-item"><a title="日本" href="javascript:;">日本</a></div>
+									<div class="filter-right-item"><a title="奥地利" href="javascript:;">奥地利</a></div>
+									<div class="filter-right-item"><a title="印度尼西亚" href="javascript:;">印度尼西亚</a></div>
+									<div class="filter-right-item"><a title="英国" href="javascript:;">英国</a></div>
+									<div class="filter-right-item"><a title="见包装" href="javascript:;">见包装</a></div>
+									<div class="filter-right-item"><a title="中国台湾" href="javascript:;">中国台湾</a></div>
+									<div class="filter-right-item"><a title="丹麦" href="javascript:;">丹麦</a></div>
+									<div class="filter-right-item"><a title="瑞士" href="javascript:;">瑞士</a></div>
+									<div class="filter-right-item"><a title="德国" href="javascript:;">德国</a></div>
+									<div class="filter-right-item"><a title="泰国" href="javascript:;">泰国</a></div>
+									<div class="filter-right-item"><a title="越南" href="javascript:;">越南</a></div>
+									<div class="filter-right-item"><a title="中国香港" href="javascript:;">中国香港</a></div>
+									<div class="filter-right-item"><a title="法国" href="javascript:;">法国</a></div>
+									<div class="filter-right-item"><a title="西班牙" href="javascript:;">西班牙</a></div>
+									<div class="filter-right-item"><a title="韩国" href="javascript:;">韩国</a></div>
+									<div class="filter-right-item"><a title="新加坡" href="javascript:;">新加坡</a></div>
+									<div class="filter-right-item"><a title="其它国家" href="javascript:;">其它国家</a></div>
+									<div class="filter-right-item"><a title="阿联酋" href="javascript:;">阿联酋</a></div>
+									<div class="filter-right-item"><a title="中国澳门" href="javascript:;">中国澳门</a></div>
+									<div class="filter-right-item"><a title="美国" href="javascript:;">美国</a></div>
+									<div class="filter-right-item"><a title="印度"  href="javascript:;">印度</a></div>
+									<div class="filter-right-item"><a title="比利时" href="javascript:;">比利时</a></div>
+									<div class="filter-right-item"><a title="波兰" href="javascript:;">波兰</a></div>
+									<div class="filter-right-item"><a title="澳大利亚" href="javascript:;">澳大利亚</a></div>
+									<div class="filter-right-item"><a title="葡萄牙" href="javascript:;">葡萄牙</a></div>
+									<div class="filter-right-item"><a title="新西兰" href="javascript:;">新西兰</a></div>
+									<div class="filter-right-item"><a title="菲律宾" href="javascript:;">菲律宾</a></div>
+									<div class="clr"></div>
+								</div>
+							
+							<div class="sx-show multiselect" style="display: none;">
+								<label><input type="checkbox" value="中国"><span>中国</span></label>
+							    <label><input type="checkbox" value="马来西亚"><span>马来西亚</span></label>
+							    <label><input type="checkbox" value="意大利"><span>意大利</span></label>
+							    <label><input type="checkbox" value="日本"><span>日本</span></label>
+							    <label><input type="checkbox" value="奥地利"><span>奥地利</span></label>
+							    <label><input type="checkbox" value="印度尼西亚"><span>印度尼西亚</span></label>
+							    <label><input type="checkbox" value="英国"><span>英国</span></label>
+							    <label><input type="checkbox" value="见包装"><span>见包装</span></label>
+							    <label><input type="checkbox" value="中国台湾"><span>中国台湾</span></label>
+							    <label><input type="checkbox" value="丹麦"><span>丹麦</span></label>
+							    <label><input type="checkbox" value="瑞士"><span>瑞士</span></label>
+							    <label><input type="checkbox" value="德国"><span>德国</span></label>
+							    <label><input type="checkbox" value="泰国"><span>泰国</span></label>
+							    <label><input type="checkbox" value="越南"><span>越南</span></label>
+							    <label><input type="checkbox" value="中国香港"><span>中国香港</span></label>
+							    <label><input type="checkbox" value="法国"><span>法国</span></label>
+							    <label><input type="checkbox" value="西班牙"><span>西班牙</span></label>
+							    <label><input type="checkbox" value="韩国"><span>韩国</span></label>
+							    <label><input type="checkbox" value="新加坡"><span>新加坡</span></label>
+							    <label><input type="checkbox" value="其它国家"><span>其它国家</span></label>
+							    <label><input type="checkbox" value="阿联酋"><span>阿联酋</span></label>
+							    <label><input type="checkbox" value="中国澳门"><span>中国澳门</span></label>
+							    <label><input type="checkbox" value="美国"><span>美国</span></label>
+							    <label><input type="checkbox" value="印度"><span>印度</span></label>
+							    <label><input type="checkbox" value="比利时"><span>比利时</span></label>
+							    <label><input type="checkbox" value="波兰"><span>波兰</span></label>
+							    <label><input type="checkbox" value="澳大利亚"><span>澳大利亚</span></label>
+							    <label><input type="checkbox" value="葡萄牙"><span>葡萄牙</span></label>
+							    <label><input type="checkbox" value="新西兰"><span>新西兰</span></label>
+							    <label><input type="checkbox" value="菲律宾"><span>菲律宾</span></label>
+							    <div class="clr"></div>
+						        <div class="showbutton" style="display: none;">
+						        	<button type="button" class="btn w48 sbutton btn-notsubmit">确定</button>
+						        	<button type="button" class="btn btn-submit btn-submitclick w48 prop-btn">取消</button>
+						        </div>
+                   			</div>
+                    		</div>
+					</div>
+				</div>
+				<div class="filter-item">
+					<div class="filter-left">
+						<span>进口/国产</span>
+					</div>
+					<div class="filter-right">
+	        	<div class="fr-button">
+							<div class="fr-button-a frbutton3">多选 +</div>
+							</div>
+						<div class="wid-list" style="display: block;">
+							<div class="sx-show show1" style="display: block;">
+								<div class="filter-right-item"><a title="国产" href="javascript:;">国产</a></div>
+									<div class="filter-right-item"><a title="进口" href="javascript:;">进口</a></div>
+									<div class="clr"></div>
+								</div>
+							
+							<div class="sx-show multiselect" style="display: none;">
+								<label><input type="checkbox" value="国产" ><span>国产</span></label>
+							    <label><input type="checkbox" value="进口" ><span>进口</span></label>
+							    <div class="clr"></div>
+						        <div class="showbutton" style="display: none;">
+						        	<button type="button" class="btn w48 sbutton btn-notsubmit">确定</button>
+						        	<button type="button" class="btn btn-submit btn-submitclick w48 prop-btn">取消</button>
+						        </div>
+                   			</div>
+                    		</div>
+					</div>
+				</div>
+			</div>
+			<div class="sequence" id="sequence-list">
+				<div class="wrap sequences">
+					<div class="sequence-left">
+						<ul class="listclass">
+							<li class="on">
+								<a href="javascript:;">综合排序</a>
+							</li>
+							<li class="upanddown">
+								<a href="javascript:;">
+									<span>销量</span>
+									<i></i>
+								</a>
+							</li>
+							<li class="sort">
+								<a href="javascript:;">
+									<span>价格</span>
+									<i></i>
+								</a>
+							</li>
+							<li class="upanddown">
+								<a href="javascript:;">
+									<span>评论</span>
+									<i></i>
+								</a>
+							</li>
+							<li class="upanddown">
+								<a href="javascript:;">
+									<span>新品</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="left-money">
+						<div class="moneyshow">
+							<input type="text" placeholder="￥最低价" />
+							<span>-</span><input type="text" placeholder="￥最高价" />
+							<div class="ltshow" style="display: none;">
+								<button type="button" class="btn btn-submit fl">清空</button>
+								<button type="button" class="btn btn-secondary fr">确定</button>
+							</div>
+						</div>
+					</div>
+					<div class="sequence-right">
+						<div class="option">
+            				<label>
+            					<input type="checkbox" data-code="isava">
+            					<span>仅看有货</span>
+            				</label>
+	                		<label>
+	                			<input type="checkbox" data-code="yunType">
+	                			<span>自营</span>
+	                		</label>
+	                		<label>
+	                			<input type="checkbox" data-code="goodsType">
+	                			<span class="on-span">跨境商品</span>
+	                		</label>
+	                		<label>
+	                			<input type="checkbox" data-code="promotion">
+	                			<span>促销</span>
+	                		</label>
+	                		<label>
+	                			<input type="checkbox" data-code="ifPickup">
+	                			<span>支持自提</span>
+			                </label>
+	                	</div>
+	                	<div class="sequence-right-pt">
+	                		<div class="fl">
+	                			<span id="currentPageIndex">1</span> / <span id="merchantCountPage1">26</span>
+	                		</div>
+	                		<div class="fr-show">
+			                	<a href="javascript:;" class="swicon buledt sl"></a>
+			                    <a href="javascript:;" class="swicon buridt sr" style="display: none;"></a>
+			                </div>
+	                	</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix prolist">
+				<ul class="pro-class">
+					<!--<li>
+						<div class="pro-show">
+							<div class="pro-icon"></div>
+							<div class="pro-img">
+								<a href="javascript:;">
+									<img src="images/1481527752_200x200.jpg"/>
+								</a> 
+							</div>
+							<div class="pro-money">
+								<div class="money-fl">￥11.80</div>
+							</div>
+							<div class="product-comment">
+								<div class="pro-name two-line">
+									<a href="javascript:;">马来西亚进口 星七牌 巧客思丽巧克力奶油夹心饼干 100g</a>
+								</div>
+							</div>
+							<div class="pro-assess">
+								<div class="pro-assess-right">百联自营</div>
+							</div>
+							<div class="pro-button">
+								<button type="button" class="btn btn-primary addCard">加入购物车</button>
+							</div>
+						</div>
+					</li>-->
+				</ul>
+			</div> 
+			<!--<div class="page-show"><table border="0" cellspacing="0" cellpadding="0" align="center"><tbody><tr><td><ul class="page"><li class="on"><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li>...</li><li><a href="#">25</a></li><li class="ym"><a href="#">下一页</a></li></ul></td></tr></tbody></table></div>-->
+			<div class="M-box" style="margin-left: 450px;"></div>
+		</div>
+		<div class="zfooter"></div>
+
+		
+	</body>
+	<script>
+		//$(".M-box").pagination();
+		
+
+	</script>
+</html>
+ 

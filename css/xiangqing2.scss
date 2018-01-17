@@ -1,0 +1,392 @@
+.basket-header{
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    .basket-banner{
+        width: 1190px;
+        height: 420px;
+        float: left;
+        display: inline;
+        overflow: hidden;
+    }
+}
+.basket-main {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    padding-bottom: 20px;
+}
+.explosion-zone {
+    width: 1200px;
+    height: auto;
+    float: left;
+    display: inline;
+    padding-bottom: 10px;
+    .three-commodity {
+        width: 1200px;
+        height: auto;
+        float: left;
+        display: inline;
+        .noleft{margin-left:0}
+        li{
+            width: 386px;
+            height: 186px;
+            float: left;
+            display: inline;
+            margin: 10px 14px 0 0;
+            .border-frame {
+                width: 385px;
+                height: 184px;
+                float: left;
+                display: inline;
+                border: 1px solid #c9c9c9;
+                position: relative;
+                .pic{
+                    width: 184px;
+                    height: 184px;
+                    float: left;
+                    display: inline;
+                    position: relative;
+                    img{
+                        width: 184px;
+                        height: 184px;
+                        display: inline;
+                    }
+                }
+                .comment {
+                    width: 165px;
+                    height: 184px;
+                    float: left;
+                    display: inline;
+                    margin-left: 15px;
+                    font-family: "Microsoft YaHei";
+                    color: #333;
+                    font-size: 16px;
+                    a{color: #333;&:hover{color: #e6133c;}}
+                    .intro {
+                        width: 100%;
+                        height: 48px;
+                        line-height: 24px;
+                        float: left;
+                        display: inline;
+                        overflow: hidden;
+                        word-break: break-all;
+                        margin-top: 18px;
+                    }
+                    .price {
+                        width: 88px;
+                        height: 28px;
+                        line-height: 28px;
+                        float: left;
+                        display: inline;
+                        font-family: Verdana;
+                        color: #e6133c;
+                        font-size: 23px;
+                        overflow: hidden;
+                        margin-top: 46px;
+                        i{font-size: 18px;}
+                        .s17{font-size: 17px;}
+                    }
+                }
+                .arrow {
+                    width: 5px;
+                    height: 4px;
+                    display: inline;
+                    background: url(../images/basket-buttonarrow1.png) no-repeat;
+                    right: -5px;
+                    bottom: 45px;
+                    position: absolute;
+                }
+                .buy-button {
+                    width: 104px;
+                    height: 32px;
+                    display: inline;
+                    background: url(../images/basket-button1.png) 0 0 no-repeat;
+                    right: -5px;
+                    bottom: 13px;
+                    cursor: pointer;
+                    border: 0 none;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+.basket-content {
+    position: relative;
+    width: 100%;
+    height: 98px;
+    float: left;
+}
+.custom-basket {
+    width: 1188px;
+    height: 96px;
+    float: left;
+    display: inline;
+    border: 1px solid #c9c9c9;
+    background: #fff;
+    .custom-title {
+        width: 41px;
+        height: 93px;
+        float: left;
+        display: inline;
+        border-right: 1px solid #dadada;
+        border-top: 3px solid #e6133c;
+        .custom-inframe {
+            width: 15px;
+            height: auto;
+            float: left;
+            display: inline;
+            margin: 9px 0 0 13px;
+            i {
+                width: 15px;
+                height: 14px;
+                float: left;
+                display: inline;
+                background: url(../images/basket-icon.png) no-repeat;
+            }
+            .word {
+                width: 15px;
+                height: auto;
+                line-height: 16px;
+                float: left;
+                display: inline;
+                color: #666;
+                font-family: "Microsoft YaHei";
+                font-size: 14px;
+                margin-top: 2px;
+            }
+        }
+    }
+    .centerframe {
+        width: 1015px;
+        height: 86px;
+        float: left;
+        display: inline;
+        margin-top: 5px;
+        border-right: 1px solid #d2d2d2;
+        .commodity {
+            width: 702px;
+            height: 86px;
+            float: left;
+            display: inline;
+            margin-top: 5px;
+            margin-left: 10px;
+            .flex {
+                max-width: 700px;
+                height: 86px;
+                position: relative;
+                z-index: 1;
+                float: left;
+                display: inline;
+                overflow: hidden;
+                .prev {
+                    left: 9px;
+                    top: 30px;
+                    background: url(../images/sprite.png) no-repeat 0 0;
+                    text-decoration: none;
+                    display: block;
+                    width: 13px;
+                    height: 23px;
+                    position: absolute;
+                    z-index: 10;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .next {
+                    right: 9px;
+                    top: 30px;
+                    background: url(../images/sprite.png) no-repeat -31px 0;
+                    text-decoration: none;
+                    display: block;
+                    width: 13px;
+                    height: 23px;
+                    position: absolute;
+                    z-index: 10;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .slides {
+                    position: relative;
+                    left: 0;
+                    top: 0;
+                    margin-left: 21px;
+                    li{
+                        width: 160px;
+                        height: 86px;
+                        float: left;
+                        display: inline;
+                        padding-right: 5px;
+                        margin-left: 5px;
+                        .single {
+                            width: 160px;
+                            height: 86px;
+                            float: left;
+                            display: inline;
+                            position: relative;
+                            .del {
+                                width: 15px;
+                                height: 15px;
+                                float: left;
+                                display: none;
+                                background: url(../images/basket-closebutton.png) no-repeat;
+                                position: absolute;
+                                top: 0;
+                                left: 55px;
+                            }
+                            .pic{
+                                width: 70px;
+                                height: 70px;
+                                float: left;
+                                display: inline;
+                                margin-top: 8px;
+                            }
+                            .comment-frame {
+                                width: 75px;
+                                height: 70px;
+                                float: left;
+                                display: inline;
+                                margin-left: 5px;
+                                margin-top: 5px;
+                                .price {
+                                    width: 100%;
+                                    height: 24px;
+                                    line-height: 24px;
+                                    float: left;
+                                    display: inline;
+                                    color: #e6133c;
+                                    font-family: Verdana;
+                                    font-size: 13px;
+                                    overflow: hidden;
+                                    font-weight: 700;
+                                }
+                                .numberframe {
+                                    width: 100%;
+                                    height: 28px;
+                                    float: left;
+                                    display: inline;
+                                    margin-top: 5px;
+                                    .addnumber {
+                                        width: 49px;
+                                        height: 26px;
+                                        float: left;
+                                        display: inline;
+                                        background: url(../images/gift-addframe.png) no-repeat;
+                                        padding: 1px;
+                                        margin-left: 0;
+                                    }
+                                    .addtext {
+                                        width: 29px;
+                                        height: 22px;
+                                        line-height: 22px;
+                                        float: left;
+                                        display: inline;
+                                        border: 0 none;
+                                        font-family: "Microsoft YaHei";
+                                        font-size: 12px;
+                                        color: #333;
+                                        padding: 2px;
+                                        text-align: center;
+                                    }
+                                    .add {
+                                        width: 15px;
+                                        height: 12px;
+                                        float: left;
+                                        display: inline;
+                                        background: url(../images/gift-addmunber2.png) 0 -13px no-repeat;
+                                        margin: 0 0 0 1px;
+                                    }
+                                    .minus {
+                                        width: 15px;
+                                        height: 13px;
+                                        float: left;
+                                        display: inline;
+                                        background: url(../images/gift-addmunber2.png) 0 0 no-repeat;
+                                        margin: 1px 0 0 1px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .info {
+            width: 280px;
+            height: 86px;
+            float: left;
+            display: inline;
+            margin-left: 15px;
+            .word1 {
+                width: 266px;
+                height: 26px;
+                line-height: 26px;
+                float: left;
+                display: inline;
+                border: 1px dashed #c9c9c9;
+                border-radius: 3px;
+                color: #6a6a6a;
+                font-family: "Microsoft YaHei";
+                font-size: 12px;
+                text-align: center;
+                margin: 12px 0 0;
+                overflow: hidden;
+                .greyfont{color: #6A6A6A;}
+                .redfont{color: #E6133C;}
+            }
+            .word2 {
+                width: 266px;
+                height: 26px;
+                line-height: 26px;
+                float: left;
+                display: inline;
+                border: 1px dashed #c9c9c9;
+                border-radius: 3px;
+                color: #6a6a6a;
+                font-family: "Microsoft YaHei";
+                font-size: 12px;
+                text-align: center;
+                margin: 7px 0 0;
+                overflow: hidden;
+                .redfont{color: #E6133C;}
+            }
+        }
+    }
+    .rightframe {
+        width: 100px;
+        height: 86px;
+        float: left;
+        display: inline;
+        margin: 5px 0 0 17px;
+        .buy-button {
+            width: 95px;
+            height: 28px;
+            float: left;
+            display: inline;
+            border: 1px solid #e6133c;
+            color: #e6133c;
+            font-family: "Microsoft YaHei";
+            font-size: 12px;
+            background: #fff;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 12px;
+        }
+        .cart-button {
+            width: 95px;
+            height: 28px;
+            float: left;
+            display: inline;
+            border: 1px solid #e6133c;
+            color: #fff;
+            font-family: "Microsoft YaHei";
+            font-size: 12px;
+            background: #e6133c;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 7px;
+        }
+    }
+}
